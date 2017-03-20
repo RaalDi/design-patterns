@@ -7,7 +7,6 @@ public class RedShapeDecorator extends ShapeDecorator
         super(decoratedShape);
     }
 
-    @Override
     public void draw()
     {
         decoratedShape.draw();
